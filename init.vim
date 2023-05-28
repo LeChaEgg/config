@@ -96,7 +96,8 @@ map Q :q<CR>
 map s <nop>
 map J 5j
 map K 5k
-inoremap jj <Esc>
+inoremap jk <Esc>
+inoremap kj <Esc>
 map <LEADER>rc :edit ~/.config/nvim/init.vim<CR>
 " ==================== Basic Mappings End====================
 "
