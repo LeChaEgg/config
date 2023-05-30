@@ -107,12 +107,16 @@ map <LEADER>rc :edit ~/.config/nvim/init.vim<CR>
 " Create a new tab with tu
 noremap tu :tabe<CR>
 noremap tU :tab split<CR>
+" Create a new tab with terminal emulator
+noremap tt :tabe<CR>:terminal<CR>
 " Move around tabs with tn and ti
 noremap th :-tabnext<CR>
 noremap tl :+tabnext<CR>
 " Move the tabs with tmn and tmi
 noremap tmn :-tabmove<CR>
 noremap tmi :+tabmove<CR>
+" CLose tab with tx
+noremap tc :tabc<CR>
 " ==================== Tab management End====================
 "" ==================== Auto load for first time uses ====================
 "if empty(glob($HOME.'/.config/nvim/autoload/plug.vim'))
