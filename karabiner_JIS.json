@@ -32,11 +32,10 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "japanese_eisuu",
-                                        "lazy": true
-                                    }
-                                ],
-                                "to_if_alone": [
+                                        "select_input_source": {
+                                            "language": "en"
+                                        }
+                                    },
                                     {
                                         "select_input_source": {
                                             "language": "en"
@@ -57,11 +56,10 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "japanese_kana",
-                                        "lazy": true
-                                    }
-                                ],
-                                "to_if_alone": [
+                                        "select_input_source": {
+                                            "language": "zh-Hans"
+                                        }
+                                    },
                                     {
                                         "select_input_source": {
                                             "language": "zh-Hans"
