@@ -144,5 +144,4 @@ function y() {
 
 # Created by `pipx` on 2025-06-21 06:14:45
 export PATH="$PATH:$HOME/.local/bin"
-export GOOGLE_CLOUD_PROJECT="gen-lang-client-0103999325"
-#export GEMINI_API_KEY="AIzaSyCEK4a4pZ0yU6XbQBV3RVwlM52lNGtbG_w"
+export GOOGLE_CLOUD_PROJECT="xxx"
